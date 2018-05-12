@@ -1,0 +1,60 @@
+body  {
+    background-image: url("../images/darkness.png");
+    
+}
+
+#title-page{
+
+    background-color: #cb6f34;
+    width:100%;
+    color: white;
+    height:100px;
+    width:280px;
+    vertical-align:middle;
+    
+}
+
+
+#instructions{
+
+    background-color: #fae4cf;
+    color: #007800;
+    width:500px;
+}
+
+#random-number {
+
+    background-color: #53c985;
+    width:230px;
+    height:120px;
+    font-size: 35px;
+    
+
+}
+
+#wins-losses {
+
+    background-color: #3cfefe;
+    width: 100px;
+    float: right;
+    height:120px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+#total, #total-score{
+
+    background-color:#1fa397;
+    width:300px;
+    color:white;
+    font-size: 20px;
+
+}
+
+#total-score{
+
+    height:150px;
+    font-size: 50px;
+}
+
