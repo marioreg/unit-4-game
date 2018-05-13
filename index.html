@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
@@ -23,11 +23,11 @@
     <p>Each time the game starts, the game will change the values of each crystal.</p>
 </div>
 
-<div id="random-number">
-      <span>39</span>
+<div id="random-number-section">
+      <span id="number-to-match"></span>
       <div id="wins-losses" class="clear">
-            <span id="wins"> Wins:</span> <br>
-            <span id="Losses"> Losses:</span>
+            <span id="wins"> </span> <br>
+            <span id="losses"> </span>
         </div>
 </div>
 
@@ -48,12 +48,9 @@
     <section id="total-score"> 0</section>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="assets/javascript/game.js">
-    
-    
-    
-    </script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
